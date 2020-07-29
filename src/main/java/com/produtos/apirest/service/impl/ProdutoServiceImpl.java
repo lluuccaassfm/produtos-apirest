@@ -7,6 +7,7 @@ import com.produtos.apirest.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -27,7 +28,9 @@ public class ProdutoServiceImpl implements ProdutoService {
     @Override
     public List<Produto> findAll(){
         log.debug("Request to get all produtos");
-        return produtoRepository.findAll();
+        List<Produto> produtos = produtoRepository.findAll();
+        produtos.sort(Comparator.comparing(Produto::getId));
+        return produtos;
     }
 
     @Override

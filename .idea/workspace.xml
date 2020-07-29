@@ -22,12 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="318d79b0-fd1c-4fc3-ba2a-7d18497fbcca" name="Default Changelist" comment="Adiciona gitignore">
+    <list default="true" id="318d79b0-fd1c-4fc3-ba2a-7d18497fbcca" name="Default Changelist" comment="Adiciona ResponseEntity nas resources">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apirest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apirest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/produtos/apirest/resource/ProdutoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/produtos/apirest/resource/ProdutoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/produtos/apirest/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/produtos/apirest/service/ProdutoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/produtos/apirest/service/impl/ProdutoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/produtos/apirest/service/impl/ProdutoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/produtos/apirest/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/produtos/apirest/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/produtos/apirest/models/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/produtos/apirest/models/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/produtos/apirest/resource/ProdutoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/produtos/apirest/resource/ProdutoResource.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="ApirestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -96,7 +97,7 @@
       <workItem from="1595878868376" duration="1976000" />
       <workItem from="1595941447973" duration="9829000" />
       <workItem from="1595959374128" duration="5857000" />
-      <workItem from="1596023032207" duration="5652000" />
+      <workItem from="1596023032207" duration="7467000" />
     </task>
     <task id="LOCAL-00001" summary="Adiciona gitignore">
       <created>1596023793373</created>
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596023793373</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adiciona ResponseEntity nas resources">
+      <created>1596029535020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596029535020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adiciona gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona gitignore" />
+    <MESSAGE value="Adiciona ResponseEntity nas resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona ResponseEntity nas resources" />
   </component>
   <component name="WindowStateProjectService">
     <state x="701" y="386" width="187" height="219" key="#Assign_Data_Sources" timestamp="1596024790039">
@@ -135,46 +144,58 @@
       <screen x="0" y="83" width="1600" height="828" />
     </state>
     <state x="395" y="157" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596024770080" />
+    <state x="608" y="200" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1596030688847">
+      <screen x="0" y="83" width="1600" height="828" />
+    </state>
+    <state x="608" y="200" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596030688847" />
+    <state x="150" y="150" width="1280" height="692" key="DiffContextDialog" timestamp="1596031249975">
+      <screen x="0" y="83" width="1600" height="828" />
+    </state>
+    <state x="150" y="150" width="1280" height="692" key="DiffContextDialog/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031249975" />
     <state x="583" y="254" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596023157911">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
     <state x="583" y="254" width="424" height="484" key="FileChooserDialogImpl/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596023157911" />
-    <state width="1554" height="408" key="GridCell.Tab.0.bottom" timestamp="1595967328162">
+    <state width="1554" height="408" key="GridCell.Tab.0.bottom" timestamp="1596031148408">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.0.bottom/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328162" />
-    <state width="1554" height="408" key="GridCell.Tab.0.center" timestamp="1595967328162">
+    <state width="1554" height="408" key="GridCell.Tab.0.bottom/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148408" />
+    <state width="1554" height="408" key="GridCell.Tab.0.center" timestamp="1596031148408">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.0.center/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328161" />
-    <state width="1554" height="408" key="GridCell.Tab.0.left" timestamp="1595967328161">
+    <state width="1554" height="408" key="GridCell.Tab.0.center/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148408" />
+    <state width="1554" height="408" key="GridCell.Tab.0.left" timestamp="1596031148408">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.0.left/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328161" />
-    <state width="1554" height="408" key="GridCell.Tab.0.right" timestamp="1595967328162">
+    <state width="1554" height="408" key="GridCell.Tab.0.left/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148408" />
+    <state width="1554" height="408" key="GridCell.Tab.0.right" timestamp="1596031148408">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.0.right/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328162" />
-    <state width="1554" height="408" key="GridCell.Tab.1.bottom" timestamp="1595967328162">
+    <state width="1554" height="408" key="GridCell.Tab.0.right/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148408" />
+    <state width="1554" height="408" key="GridCell.Tab.1.bottom" timestamp="1596031148409">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.1.bottom/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328162" />
-    <state width="1554" height="408" key="GridCell.Tab.1.center" timestamp="1595967328162">
+    <state width="1554" height="408" key="GridCell.Tab.1.bottom/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148409" />
+    <state width="1554" height="408" key="GridCell.Tab.1.center" timestamp="1596031148408">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.1.center/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328162" />
-    <state width="1554" height="408" key="GridCell.Tab.1.left" timestamp="1595967328162">
+    <state width="1554" height="408" key="GridCell.Tab.1.center/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148408" />
+    <state width="1554" height="408" key="GridCell.Tab.1.left" timestamp="1596031148408">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.1.left/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328162" />
-    <state width="1554" height="408" key="GridCell.Tab.1.right" timestamp="1595967328162">
+    <state width="1554" height="408" key="GridCell.Tab.1.left/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148408" />
+    <state width="1554" height="408" key="GridCell.Tab.1.right" timestamp="1596031148408">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state width="1554" height="408" key="GridCell.Tab.1.right/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595967328162" />
-    <state x="289" y="131" key="SettingsEditor" timestamp="1595962749217">
+    <state width="1554" height="408" key="GridCell.Tab.1.right/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031148408" />
+    <state x="578" y="198" width="434" height="595" key="RollbackChangesDialog" timestamp="1596031260166">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
-    <state x="289" y="131" key="SettingsEditor/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1595962749217" />
+    <state x="578" y="198" width="434" height="595" key="RollbackChangesDialog/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596031260166" />
+    <state x="244" y="164" key="SettingsEditor" timestamp="1596030878365">
+      <screen x="0" y="83" width="1600" height="828" />
+    </state>
+    <state x="244" y="164" key="SettingsEditor/0.83.1600.828/1600.0.1920.1080@0.83.1600.828" timestamp="1596030878365" />
     <state x="395" y="232" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596023974824">
       <screen x="0" y="83" width="1600" height="828" />
     </state>
