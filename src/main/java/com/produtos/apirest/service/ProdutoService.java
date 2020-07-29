@@ -13,6 +13,6 @@ public interface ProdutoService {
 
     Optional<Produto> findOne(Long id);
 
-    void delete(Long id);
+    void delete(Produto produto);
 
 }

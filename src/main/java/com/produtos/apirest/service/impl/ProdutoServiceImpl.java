@@ -37,8 +37,8 @@ public class ProdutoServiceImpl implements ProdutoService {
     }
 
     @Override
-    public void delete(Long id){
-        log.debug("Request to delete produto: {}", id);
-        produtoRepository.deleteById(id);
+    public void delete(Produto produto){
+        log.debug("Request to delete produto: {}", produto);
+        produtoRepository.delete(produto);
     }
 }
